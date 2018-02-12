@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558919712031D7F2004FD147 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 558919702031D7F2004FD147 /* .gitignore */; };
 		63DE379B1D6DD3EF000AB4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE379A1D6DD3EF000AB4B6 /* AppDelegate.swift */; };
 		63DE379D1D6DD3EF000AB4B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DE379C1D6DD3EF000AB4B6 /* ViewController.swift */; };
 		63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63DE379E1D6DD3EF000AB4B6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		558919702031D7F2004FD147 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		63DE37971D6DD3EF000AB4B6 /* I Am Poor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I Am Poor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DE379A1D6DD3EF000AB4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63DE379C1D6DD3EF000AB4B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		63DE378E1D6DD3EF000AB4B6 = {
 			isa = PBXGroup;
 			children = (
+				558919702031D7F2004FD147 /* .gitignore */,
 				63DE37991D6DD3EF000AB4B6 /* I Am Poor */,
 				63DE37981D6DD3EF000AB4B6 /* Products */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					63DE37961D6DD3EF000AB4B6 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2P6PSJJ6S6;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -123,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558919712031D7F2004FD147 /* .gitignore in Resources */,
 				63DE37A51D6DD3EF000AB4B6 /* LaunchScreen.storyboard in Resources */,
 				63DE37A21D6DD3EF000AB4B6 /* Assets.xcassets in Resources */,
 				63DE37A01D6DD3EF000AB4B6 /* Main.storyboard in Resources */,
@@ -272,9 +277,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2P6PSJJ6S6;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trojax.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
@@ -285,9 +291,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2P6PSJJ6S6;
 				INFOPLIST_FILE = "I Am Poor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.YourName.I-Am-Poor";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.trojax.I-Am-Poor";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
